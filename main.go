@@ -1,7 +1,7 @@
 package main
 
 import (
-	exo ""
+	exo "github.com/exo"
 )
 
 func main() {
