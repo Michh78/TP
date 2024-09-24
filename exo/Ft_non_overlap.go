@@ -2,13 +2,13 @@ package exo
 
 import "sort"
 
-// Définition de la structure Interval
+// structure Interval
 type Interval struct {
     start int
     end   int
 }
 
-// Ft_non_overlap calcule le nombre d'intervalles à supprimer
+// Cette fonction calcule le nombre d'intervalles à supprimer
 func Ft_non_overlap(intervals [][]int) int {
     // Conversion en slice d'Interval pour faciliter le tri
     intervalSlice := make([]Interval, len(intervals))
